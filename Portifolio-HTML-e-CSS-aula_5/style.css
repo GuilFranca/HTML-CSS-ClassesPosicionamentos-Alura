@@ -4,8 +4,17 @@
 }
 
 body {
+    /* altura da tela igual a 100% do viewport height = exatamente a tela que estamos abrindo */
+    /* box-sizing: border-box faz com que os elementos filhos não ultrapassem o tamanho do elemento pai */
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
 
 .titulo-destaque {
